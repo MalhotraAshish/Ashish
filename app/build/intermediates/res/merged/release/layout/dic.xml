@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id = "@+id/cosmetologyintro"
+        android:text = "Cosmetology"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/cosmetology"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/dic"
+        android:text = "Diploma in Cosmetology (DIC)"
+        android:layout_below="@+id/cosmetologyintro"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:typeface="serif"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/diccourse"
+        android:text = "Course Content : "
+        android:layout_below="@+id/dic"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_centerHorizontal="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/diccontent"
+        android:text = "Skin Theory, Electrology, Home Care Recipes For Skin and Hair, Basic Facials, Hair Trichology,  Hair Disorders, Shampooing, Conditioning, Henna Application, Blow Dry, Roller Setting, Crimping, Ironing, Tong Rod Set, Hair Cuts, Chemical Jobs, Hair-Styling, Day Makeup, Evening Makeup, Engagement Makeup and Party Makeup."
+        android:textAlignment="center"
+        android:gravity="center"
+        android:typeface="normal"
+        android:textSize="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="6dp"
+        android:layout_below="@+id/diccourse"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id = "@+id/diccareer"
+        android:text = "Career Oppotunities : "
+        android:layout_below="@+id/diccontent"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_centerHorizontal="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/diccopportunity"
+        android:text = " Beautician"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/diccareer"
+        android:layout_toEndOf="@+id/diccareer" />
+
+
+
+
+
+</RelativeLayout>

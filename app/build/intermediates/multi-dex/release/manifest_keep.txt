@@ -1,0 +1,52 @@
+-keep class com.vlccinstitute.ashish.vlcc.MainActivity { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.PhotoGallery { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.AboutUs { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.ContactUs { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.RegularCourse { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Correspondence { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Cosmetology { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Hair { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.MakeUp { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Nutrition { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Therapy { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Spa { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Adc { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Dic { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Pdc { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Gmic { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Chd { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Achd { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.HairDesign { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.DiplomaHair { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Amu { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Pmu { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Classical { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Bridal { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Media { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.AdvanceMakeup { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.SpaType1 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.SpaType2 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.SpaType3 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.NutritionCourse1 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.NutritionCourse2 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.NutritionCourse3 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.TherapyType1 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.TherapyType2 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.TherapyType3 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.TherapyType4 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.TherapyType5 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.TherapyType6 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.TherapyType7 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.TherapyType8 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.TherapyType9 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.CorrespondenceType1 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.CorrespondenceType2 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.CorrespondenceType3 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.CorrespondenceType4 { <init>(); }
+-keep class com.vlccinstitute.ashish.vlcc.Workshop { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

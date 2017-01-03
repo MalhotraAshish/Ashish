@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id = "@+id/cosmetologyintro"
+        android:text = "Cosmetology"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/cosmetology"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/adc"
+        android:text = "Advance Diploma in Cosmetology (ADC)"
+        android:layout_below="@+id/cosmetologyintro"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:typeface = "sans"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/adccourse"
+        android:text = "Course Content : "
+        android:layout_below="@+id/adc"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_centerHorizontal="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/adccontent"
+        android:text = "Skin Theory, Electrology, Facials, Manicure, Pedicure, Hair Analysis and Treatments, Hair Cuts, Perming, Coloring, Hair Rebonding, Skin Analysis and Treatments, Body and Facial Hair Removal,  Aromatherapy, Body Art and Nail Art, Nail Extensions (Temporary), Salon Management and Business Ethics."
+        android:textAlignment="center"
+        android:gravity="center"
+        android:typeface="normal"
+        android:textSize="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="6dp"
+        android:layout_below="@+id/adccourse"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id = "@+id/adccareer"
+        android:text = "Career Oppotunities : "
+        android:layout_below="@+id/adccontent"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_centerHorizontal="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/adccopportunity"
+        android:text = "Salon Manager, Beauty Therapist and Hair Designer"
+        android:textSize="13dp"
+        android:layout_alignTop="@+id/adccareer"
+        android:layout_toEndOf="@+id/adccareer" />
+
+
+
+
+
+</RelativeLayout>

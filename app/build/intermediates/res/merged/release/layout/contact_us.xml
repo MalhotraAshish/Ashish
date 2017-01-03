@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:id="@+id/contacthead"
+        android:text = "Contact Us"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/contact_bg"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telephone:"
+        android:textColor="#FF7A2B"
+        android:layout_below="@+id/contacthead"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:id = "@+id/telephone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08527841116 (Mon-Sat-9.30am-6.00pm)"
+        android:textColor="#000000"
+        android:layout_toRightOf="@+id/telephone"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/contacthead"
+        android:textSize="20dp"
+        android:id = "@+id/telephonedetail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:id="@+id/location"
+        android:text = "Our Location"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/contact_bg"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="64, HSIDC Sector 18, Maruti Industrial Area Gurgaon - 122015 Haryana (India)"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/location"
+        android:textSize="20dp"
+        android:id = "@+id/locationdetail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fax:"
+        android:textColor="#FF7A2B"
+        android:layout_below="@+id/telephonedetail"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:id = "@+id/fax"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" +(91)-(124)- 4011371 "
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/telephonedetail"
+        android:layout_toRightOf="@+id/fax"
+        android:textSize="20dp"
+        android:id = "@+id/faxdetail"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textColor="#FF7A2B"
+        android:layout_below="@+id/faxdetail"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:id = "@+id/email"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" marketing@vlccwellness.com "
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/faxdetail"
+        android:layout_toRightOf="@+id/email"
+        android:textSize="20dp"
+        android:id = "@+id/emaildetail"/>
+
+</RelativeLayout>

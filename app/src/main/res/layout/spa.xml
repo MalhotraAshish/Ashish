@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id = "@+id/regular1"
+            android:text = "Regular Courses"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/courses_1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/spa"
+            android:layout_marginTop="0dp"
+            android:text = "Spa-Therapy"
+            android:textAllCaps="true"
+            android:layout_below="@+id/regular1"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:layout_marginLeft="0dp"
+            android:textAlignment="center"
+            android:background="@drawable/spa"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/underline"
+            android:text = "_________________"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/regular1"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/heading1"
+            android:text = "Course"
+            android:textColor="#000000"
+            android:layout_marginStart="46dp"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:layout_marginTop="48dp"
+            android:layout_below="@+id/regular1"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/underline1"
+            android:text = "________"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@+id/heading1"
+            android:layout_alignEnd="@+id/heading1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/heading2"
+            android:text = "Duration"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:layout_marginEnd="19dp"
+            android:layout_alignTop="@+id/heading1"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/underline2"
+            android:text = "__________"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginLeft="50dp"
+            android:layout_alignTop="@+id/heading2"
+            android:layout_alignEnd="@+id/spaduration4" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/spatype3"
+            android:text="Diploma in Spa Therapies(DST)"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/underline1"
+            android:layout_marginBottom="299dp"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/heading2" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/spatype1"
+            android:text="Western Spa Therapy"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_centerVertical="false"
+            android:layout_marginTop="230dp"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/heading2" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/spatype2"
+            android:text="Oriental Spa Therapy"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/spatype1"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="46dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/spaduration2"
+            android:text="2 Months"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignTop="@+id/spatype3"
+            android:layout_toEndOf="@+id/spatype3" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/spaduration1"
+            android:text="14 Days"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignTop="@+id/spatype1"
+            android:layout_toEndOf="@+id/spatype1" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/spaduration4"
+            android:text="3 Months"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignTop="@+id/spatype2"
+            android:layout_toEndOf="@+id/spatype3" />
+
+    </RelativeLayout>
+</ScrollView>

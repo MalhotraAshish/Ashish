@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id = "@+id/cosmetologyintro"
+        android:text = "Cosmetology"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/cosmetology"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/pdc"
+        android:text = "Professional Diploma in Cosmetology (PDC)"
+        android:layout_below="@+id/cosmetologyintro"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:typeface="serif"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/pdccourse"
+        android:text = "Course Content : "
+        android:layout_below="@+id/pdc"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_centerHorizontal="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/pdccontent"
+        android:text = "Skin Theory, Electrology, Facials, Manicure, Pedicure, Hair Analysis and Treatments, Hair Cuts, Perming, Coloring, Hair Rebonding, Skin Analysis and Treatments, Cosmetic Recipes, Makeup, Body and Facial Hair Removal, Aromatherapy, Body Art and Nail Art, Saree Tying, Personal Grooming, Nail Extensions (Temporary), Spa Therapies (Oriental and Western), Salon Management and Business Ethics."
+        android:textAlignment="center"
+        android:gravity="center"
+        android:typeface="normal"
+        android:textSize="12dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="6dp"
+        android:layout_below="@+id/pdccourse"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id = "@+id/pdccareer"
+        android:text = "Career Oppotunities : "
+        android:layout_below="@+id/pdccontent"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_centerHorizontal="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/pdccopportunity"
+        android:text = "Aesthetician, Salon Manager, Open your own salon, Beauty Manager, Faculty"
+        android:textSize="12dp"
+        android:layout_marginLeft="0dp"
+        android:layout_alignTop="@+id/pdccareer"
+        android:layout_toEndOf="@+id/pdccareer" />
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

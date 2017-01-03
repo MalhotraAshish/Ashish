@@ -1,0 +1,253 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:2:1-72:12
+	package
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:5:5-69:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:7:9-38
+	android:theme
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.vlccinstitute.ashish.vlcc.MainActivity
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:11:9-20:20
+	android:label
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:13:13-45
+	android:theme
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:12:13-70
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.vlccinstitute.ashish.vlcc.PhotoGallery
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:21:9-88
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:21:19-76
+activity#com.vlccinstitute.ashish.vlcc.AboutUs
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:22:9-83
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:22:19-71
+activity#com.vlccinstitute.ashish.vlcc.ContactUs
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:23:9-85
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:23:19-73
+activity#com.vlccinstitute.ashish.vlcc.RegularCourse
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:24:9-89
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:24:19-77
+activity#com.vlccinstitute.ashish.vlcc.Correspondence
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:25:9-90
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:25:19-78
+activity#com.vlccinstitute.ashish.vlcc.Cosmetology
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:26:9-87
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:26:19-75
+activity#com.vlccinstitute.ashish.vlcc.Hair
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:27:9-80
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:27:19-68
+activity#com.vlccinstitute.ashish.vlcc.MakeUp
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:28:9-82
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:28:19-70
+activity#com.vlccinstitute.ashish.vlcc.Nutrition
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:29:9-85
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:29:19-73
+activity#com.vlccinstitute.ashish.vlcc.Therapy
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:30:9-83
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:30:19-71
+activity#com.vlccinstitute.ashish.vlcc.Spa
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:31:9-79
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:31:19-67
+activity#com.vlccinstitute.ashish.vlcc.Adc
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:32:9-79
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:32:19-67
+activity#com.vlccinstitute.ashish.vlcc.Dic
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:33:9-79
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:33:19-67
+activity#com.vlccinstitute.ashish.vlcc.Pdc
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:34:9-79
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:34:19-67
+activity#com.vlccinstitute.ashish.vlcc.Gmic
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:35:9-80
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:35:19-68
+activity#com.vlccinstitute.ashish.vlcc.Chd
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:36:9-79
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:36:19-67
+activity#com.vlccinstitute.ashish.vlcc.Achd
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:37:9-80
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:37:19-68
+activity#com.vlccinstitute.ashish.vlcc.HairDesign
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:38:9-86
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:38:19-74
+activity#com.vlccinstitute.ashish.vlcc.DiplomaHair
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:39:9-87
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:39:19-75
+activity#com.vlccinstitute.ashish.vlcc.Amu
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:40:9-79
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:40:19-67
+activity#com.vlccinstitute.ashish.vlcc.Pmu
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:41:9-79
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:41:19-67
+activity#com.vlccinstitute.ashish.vlcc.Classical
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:42:9-85
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:42:19-73
+activity#com.vlccinstitute.ashish.vlcc.Bridal
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:43:9-82
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:43:19-70
+activity#com.vlccinstitute.ashish.vlcc.Media
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:44:9-81
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:44:19-69
+activity#com.vlccinstitute.ashish.vlcc.AdvanceMakeup
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:45:9-89
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:45:19-77
+activity#com.vlccinstitute.ashish.vlcc.SpaType1
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:46:9-84
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:46:19-72
+activity#com.vlccinstitute.ashish.vlcc.SpaType2
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:47:9-84
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:47:19-72
+activity#com.vlccinstitute.ashish.vlcc.SpaType3
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:48:9-84
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:48:19-72
+activity#com.vlccinstitute.ashish.vlcc.NutritionCourse1
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:49:9-92
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:49:19-80
+activity#com.vlccinstitute.ashish.vlcc.NutritionCourse2
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:50:9-92
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:50:19-80
+activity#com.vlccinstitute.ashish.vlcc.NutritionCourse3
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:51:9-92
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:51:19-80
+activity#com.vlccinstitute.ashish.vlcc.TherapyType1
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:52:9-88
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:52:19-76
+activity#com.vlccinstitute.ashish.vlcc.TherapyType2
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:53:9-88
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:53:19-76
+activity#com.vlccinstitute.ashish.vlcc.TherapyType3
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:54:9-88
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:54:19-76
+activity#com.vlccinstitute.ashish.vlcc.TherapyType4
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:55:9-88
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:55:19-76
+activity#com.vlccinstitute.ashish.vlcc.TherapyType5
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:56:9-88
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:56:19-76
+activity#com.vlccinstitute.ashish.vlcc.TherapyType6
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:57:9-88
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:57:19-76
+activity#com.vlccinstitute.ashish.vlcc.TherapyType7
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:58:9-88
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:58:19-76
+activity#com.vlccinstitute.ashish.vlcc.TherapyType8
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:59:9-88
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:59:19-76
+activity#com.vlccinstitute.ashish.vlcc.TherapyType9
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:60:9-88
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:60:19-76
+activity#com.vlccinstitute.ashish.vlcc.CorrespondenceType1
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:61:9-95
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:61:19-83
+activity#com.vlccinstitute.ashish.vlcc.CorrespondenceType2
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:62:9-95
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:62:19-83
+activity#com.vlccinstitute.ashish.vlcc.CorrespondenceType3
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:63:9-95
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:63:19-83
+activity#com.vlccinstitute.ashish.vlcc.CorrespondenceType4
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:64:9-95
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:64:19-83
+activity#com.vlccinstitute.ashish.vlcc.Workshop
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:65:9-84
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:65:19-72
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:70:5-66
+	android:name
+		ADDED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml:70:22-64
+uses-sdk
+INJECTED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\500039306\AndroidStudioProjects\VLCC2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\500039306\AndroidStudioProjects\VLCC2\app\src\main\AndroidManifest.xml

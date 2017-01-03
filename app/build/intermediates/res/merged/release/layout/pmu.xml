@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/makeupintro"
+            android:text = "Makeup"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/makeup"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/pmu"
+            android:text = "Professional Makeup (PMU)"
+            android:layout_below="@+id/makeupintro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/pmucourse"
+            android:text = "Course Content : "
+            android:layout_below="@+id/pmu"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="18dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/pmucontent"
+            android:text = "Makeup Theory, Tools of Makeup, Different Eye Makeup, Day Makeup (3 types), Evening Makeup, Engagement Makeup, Reception Makeup, Bridal Makeup, Groom Makeup, Corrective Makeup, Ramp Makeup, Illusion Makeup (Old Age Look, Cut and Burn Marks, Beard Look, Accident Mark), Portfolio Makeup, Fantasy Makeup (Face Art), Glossy Makeup, Tan Makeup."
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/pmucourse"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/pmucareer"
+            android:text = "Career Oppotunities : "
+            android:layout_below="@+id/pmucontent"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/pmucopportunity"
+            android:text = "Makeup Artist or a Freelancer."
+            android:textSize="18dp"
+            android:layout_alignTop="@+id/pmucareer"
+            android:layout_toEndOf="@+id/pmucareer" />
+    </RelativeLayout>

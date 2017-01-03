@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id = "@+id/regular1"
+            android:text = "Regular Courses"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/courses_1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:id="@+id/therapy"
+            android:layout_marginTop="0dp"
+            android:text = "Skin-Therapy-Aesthetics-Laser-Courses"
+            android:textAllCaps="true"
+            android:layout_below="@+id/regular1"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:layout_marginLeft="0dp"
+
+            android:background="@drawable/therapy"/>
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/underline"
+            android:text = "_________________________"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/regular1"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/heading1"
+            android:text = "Course"
+            android:textColor="#000000"
+            android:layout_marginStart="46dp"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/regular1"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/underline1"
+            android:text = "________"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@+id/heading1"
+            android:layout_alignEnd="@+id/heading1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/heading2"
+            android:text = "Duration"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:layout_marginEnd="19dp"
+            android:layout_alignTop="@+id/heading1"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/underline2"
+            android:text = "__________"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginLeft="50dp"
+            android:layout_alignTop="@+id/heading2"
+            android:layout_alignEnd="@+id/makeupduration4" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/therapytype1"
+            android:text = "Diploma in Beauty Culture"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize = "15dp"
+            android:layout_below="@+id/underline1"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/therapytype2"
+            android:text="Advance Certificate Course in Beauty Culture"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_centerVertical="false"
+            android:layout_marginTop="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/heading2" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/therapytype3"
+            android:text="Certificate Course in Beauty Culture"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/therapytype2"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/therapytype4"
+            android:text="Advance Diploma in Asethetics (ADA)"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/therapytype3"
+            android:layout_alignStart="@+id/underline"
+            android:layout_marginTop="14dp" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/therapytype5"
+            android:text="Laser Hair Reduction"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/therapytype4"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/therapytype9"
+            android:text="Cosmetic Peels (A.H.A and B.H.A)"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/therapytype5"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/therapytype8"
+            android:text="Photofacials/IPL"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/therapytype9"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/therapytype6"
+            android:text="Laser Tattoo Removal"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@+id/therapytype8"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/therapytype7"
+            android:text="Laser Hair Stimulation"
+            android:textStyle="bold"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/therapytype6"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/makeupduration2"
+            android:text="2 Months"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_alignTop="@+id/therapytype3"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/makeupduration1"
+            android:text="2 Months"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_alignTop="@+id/therapytype2"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/makeupduration5"
+            android:text="7 days"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_alignTop="@+id/therapytype9"
+            android:layout_alignStart="@+id/makeupduration3" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/makeupduration7"
+            android:text="2 days"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_alignTop="@+id/therapytype7"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/makeupduration8"
+            android:text="2 days"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_alignTop="@+id/therapytype6"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/makeupduration9"
+            android:text="3 days"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_alignTop="@+id/therapytype8"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/makeupduration3"
+            android:text="8 days"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_above="@+id/therapytype9"
+            android:layout_alignStart="@+id/makeupduration4" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/makeupduration6"
+            android:text="4 Months"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_alignTop="@+id/therapytype1"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/makeupduration4"
+            android:text="23 Days"
+            android:textColor = "#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="0dp"
+            android:layout_alignTop="@+id/therapytype4"
+            android:layout_alignStart="@+id/makeupduration2" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vlccinstitute.ashish.vlcc" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.vlccinstitute.ashish.vlcc.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.PhotoGallery"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.AboutUs"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.ContactUs"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.RegularCourse"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Correspondence"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Cosmetology"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Hair"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.MakeUp"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Nutrition"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Therapy"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Spa"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Adc"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Dic"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Pdc"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Gmic"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Chd"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Achd"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.HairDesign"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.DiplomaHair"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Amu"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Pmu"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Classical"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Bridal"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Media"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.AdvanceMakeup"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.SpaType1"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.SpaType2"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.SpaType3"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.NutritionCourse1"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.NutritionCourse2"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.NutritionCourse3"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.TherapyType1"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.TherapyType2"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.TherapyType3"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.TherapyType4"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.TherapyType5"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.TherapyType6"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.TherapyType7"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.TherapyType8"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.TherapyType9"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.CorrespondenceType1"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.CorrespondenceType2"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.CorrespondenceType3"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.CorrespondenceType4"></activity>
+        <activity android:name="com.vlccinstitute.ashish.vlcc.Workshop"></activity>
+
+
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

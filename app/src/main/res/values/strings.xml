@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VLCC Institute</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about_us">To ensure a better quality of life for everyone, by adopting and pursuing ethically and socially relevant business practices aimed at shaping up people’s confidence and making Slimming, Beauty and Health accessible to all sections of our society.</string>
+    <string name="founder_msg">I tried, to bring back the hope in weary eyes, beauty in cynical faces, and a glow in jaded halos. It was almost a decade ago that I treaded on the delicate terrain of others’ dreams. I tried, in my own little way to usher in the mantra of ‘look good, feel great’. Nothing gave me a bigger high than to see the glow on a patron’s face who, a couple of months ago came to me dejected, dismayed and with zero confidence. My dedicated team went to task, re-sculpted the persona and today the same life has an attitude and is all set to go out, be with friends, experiment with life, wear clothes that accentuate the body beautiful and face life with a whole new energy. A new karma. And it is with wings set to fly that I have set up this institution. The idea is to see the same glow, the same positivity.
+I welcome you to VLCC Institute of Beauty and Nutrition with a humble hope that we can once again bring back smiles as we have done in the past with other VLCC endeavors.</string>
+    <string name="introduction">VLCC Institute of Beauty and Nutrition was established in India in 2001 to share VLCC’s dream with today’s students and tomorrow’s entrepreneurs. Headquartered in Gurgaon. The Institutes offer specialized professional courses in beauty, hair, cosmetology, make-up, spa therapies and nutrition.</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="makeup1">Makeup Theory, Tools of Makeup, Different Eye Makeup, Day Makeup (3 types), Evening Makeup, Engagement Makeup, Reception Makeup, Bridal Makeup, Groom Makeup, Corrective Makeup, Ramp Makeup, Illusion Makeup (Old Age Look, Cut and Burn Marks, Beard Look, Accident Mark), Portfolio Makeup, Fantasy Makeup (Face Art), Glossy Makeup, Tan Makeup. Indian Bride In Seven Looks, Blemished Skin Makeup, Tan Makeup, Yellow Makeup, Glamour Makeup, Page 3 Makeup, High definition Makeup, Airbrush Body Makeup with silicone Base, Casualty Simulation, 3D prosthetics and Special Effect Makeup.</string>
+    <string name="makeup2">Personal Hygiene, Pre-Bridal Consultancy, CTM for Birdal, Color Theory, Color Correction of The Complexion, Shading and Contouring, Step-By-Step Application, Bridal Tips, Dierent Bridal Makeup, 5 Hair Styles for 5 Different Brides.</string>
+
+</resources>

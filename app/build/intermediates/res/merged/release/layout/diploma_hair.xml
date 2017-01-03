@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id = "@+id/hairintro"
+            android:text = "Hair"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@drawable/hair_framesi_banner"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/diploma"
+            android:text = "Diploma in Hair Design"
+            android:layout_below="@+id/hairintro"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/diplomacourse"
+            android:text = "Course Content : "
+            android:layout_below="@+id/diploma"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="18dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/diplomacontent"
+            android:text = "Hair Trichology, Hair Disorders, Shampooing /Conditioning, Henna Application/Blow Dry/Roller Setting, Crimping /Ironing/Tong Rod Set, Hair Cuts, Chemical Jobs, Hair-Styling, Self Makeup, Advance Hair Cuts, Advance Chemical Job, Perming/Coloring, Hair Rebonding, Hair Jetting, Advance Hair Style, Self Makeup (Day and Evening), Salon Management and Business Ethics."
+            android:textAlignment="center"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textSize="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/diplomacourse"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id = "@+id/diplomacareer"
+            android:text = "Career Oppotunities : "
+            android:layout_below="@+id/diplomacontent"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_centerHorizontal="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/diplomacopportunity"
+            android:text = "Hair Expert Salon Manager or Trainer in an Institute"
+            android:textSize="18dp"
+            android:layout_alignTop="@+id/diplomacareer"
+            android:layout_toEndOf="@+id/diplomacareer" />
+    </RelativeLayout>
+</ScrollView>
